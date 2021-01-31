@@ -1,0 +1,142 @@
+.whatsapp {
+	height: 1148px;
+	background: url('/images/whatsapp-bg.png') no-repeat top center;
+	padding-top: 205px;
+	margin-left: -220px;
+	margin-bottom: -50px;
+	
+	&__header {
+		width: 850px;
+		margin-left: 360px;
+	}
+
+	&__subtitle {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	&__title {
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 35px;
+	}
+	
+	&__blue-title {
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 35px;
+		color: #1A68AF;
+		margin: 10px 0 0 55px;
+	}
+
+	&__desc {
+		font-style: italic;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 21px;
+		color: #3E3E3E;
+		opacity: 0.8;
+		margin: 45px 0 0 198px;
+	}
+
+	&__form {
+		width: 396px;
+		margin: -38px -58px 0 0;
+		padding: 0 45px;
+		color: #EEEEEE;
+
+		&-wrapper {
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		&-title {
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 35px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+
+		&-subtitle {
+			font-size: 16px;
+			line-height: 19px;
+			text-align: center;
+			color: #EEEEEE;
+			margin-top: 10px;
+		}
+
+		&-desc {
+			margin-top: 20px;
+			font-size: 12px;
+			line-height: 14px;
+			text-align: center;
+			color: #EEEEEE;
+		}
+
+		&-group {
+			margin: 45px 0 23px;
+
+			&__input {
+				background: #FFFFFF;
+				box-shadow: 0px 2px 1px rgba(0, 50, 78, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.15), inset 0px 2px 3px rgba(0, 0, 0, 0.1), inset 0px 0px 20px rgba(0, 0, 0, 0.08);
+				border-radius: 30px;
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	.whatsapp {
+		background: url('/images/whatsapp-bg-m.png') no-repeat center;
+		margin-top: 110px;
+		margin-left: 0;
+		padding-top: 23px;
+		margin-bottom: -61px;
+	
+		&__header {
+			width: initial;
+			margin-left: 5px;
+			padding: 60px 15px 25px 25px;
+		}
+
+		&__subtitle {
+			font-size: 14px;
+		}
+
+		&__title {
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 23px;
+			color: #3C3736;
+		}
+
+		&__blue-title {
+			font-style: italic;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 21px;
+			color: #1A68AF;
+			margin: 28px 0 0 55px;
+		}
+
+		&__desc {
+			font-size: 14px;
+			line-height: 17px;
+			margin: 10px 0 0 90px;
+		}
+
+		&__form {
+			width: initial;
+			margin: 335px -20px 0;
+
+			&-title {
+				font-size: 24px;
+			}
+
+			&-group {
+				margin: 30px 0 15px;
+			}
+		}
+	}
+}

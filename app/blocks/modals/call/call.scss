@@ -1,0 +1,52 @@
+.call-modal {
+	width: 995px;
+	height: 779px;
+	background: url('/images/call-modal_bg.png') no-repeat center;
+	padding: 225px 230px 50px 420px;
+}
+
+.form-desc {
+	margin: -10px 27px 0;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #202020;
+	opacity: 0.6;
+}
+
+.call__form {
+	width: 234px;
+	margin-top: 36px;
+	margin-left: 80px;
+}
+
+@media (max-width: 800px) {
+	.call {
+		&-modal {
+			width: 320px;
+			height: 471px;
+			background: none;
+			padding: 129px 0 74px 0px;
+
+			&:before {
+				content: '';
+				position: absolute;
+				width: 456px;
+				height: 471px;
+				background: url(/images/call-modal_bg-m.png) no-repeat center;
+				z-index: -1;
+				left: -66px;
+				top: 3px;
+				margin: auto;
+			}
+		}
+		&__form {
+			margin-top: -10px;
+			margin-left: 33px;
+		}
+	}
+
+	.form-desc {
+		margin: 0 27px;
+	}
+}
